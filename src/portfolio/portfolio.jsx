@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Portfolio.module.css';
+import styles from './portfolio.module.css';
 
 const NAVIGATION_ITEMS = [
   { href: '#home', label: 'Home' },

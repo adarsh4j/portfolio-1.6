@@ -461,7 +461,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 32px;
-  background: #FAEBD7;
+  background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -558,7 +558,7 @@ body {
 }
 
 .projectlist {
-  font-family: cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 400;
   font-size: 19px;
 }

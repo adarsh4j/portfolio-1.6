@@ -95,11 +95,7 @@ const Portfolio = () => {
           <img src="adarshpicportfolio.png" alt="Pic" />
           <div className={styles.aboutText}>
             <p>
-              As a software engineer, I am deeply motivated, thanks to my academic background in computer science and a strong interest in using technology to solve problems. My experience with software development stems from both a technical side and a certain creative thinking that allows me to build applications that provide a necessary solution to a customer’s problem. <br /><br />
-
-              I appreciate dealing with the challenges of designing and building applications that are both strong in terms of their model and are easy to use or don’t require much effort. This might involve working on the backend of systems, developing the frontend, or redoing the already existing solutions. In each situation, I focus on the highest standards.<br /><br />
-
-              I continuously work on learning new skills and deploying them for relevant projects, as I want firsthand experience in state-of-the-art technologies. I don’t want to just write beautiful software, I want to be able to develop tools that will be helpful for people.
+            As a software engineer with a strong academic background in computer science, I am passionate about leveraging technology to solve real-world problems. My experience spans both technical development and creative problem-solving, enabling me to build robust, user-friendly applications tailored to customer needs. I thrive on designing and refining systems—whether backend, frontend, or improving existing solutions—while maintaining high standards of quality. Committed to continuous learning, I actively explore cutting-edge technologies to develop impactful tools that make a difference.
             </p>
             <button className={styles.resume}>Resume</button>
           </div>

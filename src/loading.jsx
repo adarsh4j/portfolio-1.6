@@ -1,10 +1,10 @@
 import React from 'react';
 import style from '../src/loading.module.css';
-
+import image from '../src/assets/loaderrr.png'
 const Loading = () => {
   return (
     <div className={style.container}>
-      <img src="newimage.jpg" alt="Quiz" className={style.image2} />
+      <img src={image} alt="load" className={style.image2} />
     </div>
   );
 };

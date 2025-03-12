@@ -97,7 +97,7 @@ const Portfolio = () => {
             <p>
             As a software engineer with a strong academic background in computer science, I am passionate about leveraging technology to solve real-world problems. My experience spans both technical development and creative problem-solving, enabling me to build robust, user-friendly applications tailored to customer needs. I thrive on designing and refining systems—whether backend, frontend, or improving existing solutions—while maintaining high standards of quality. Committed to continuous learning, I actively explore cutting-edge technologies to develop impactful tools that make a difference.
             </p>
-            <a href="https://drive.google.com/file/d/1H982bGU9kl6BQsLZb5uz3GJ5YMGhWuOU/view?usp=drivesdk" target="_blank">
+            <a href="https://drive.google.com/file/d/1H982bGU9kl6BQsLZb5uz3GJ5YMGhWuOU/view?usp=drivesdk" target="_blank"  className={styles.noUnderline}>
             <button className={styles.resume}>Resume</button></a>
           </div>
         </div>

@@ -105,23 +105,41 @@ const Portfolio = () => {
 
       {/* Experience Section */}
       <section id="experience" className={styles.section}>
-        <h2 className={styles.sectionTitle}>Experience</h2>
-        <div className={styles.educationCard}>
-          <h3 className={styles.degree}>Application developer</h3>
-          <p className={styles.university}>International Center for Free and Open Source Software(ICFOSS)</p>
-          <p className={styles.cgpa}>Internship</p>
-          <p className={styles.year}>2024 - Ongoing</p>
-          <div className={styles.achievements}>
-            <h4>Key Achievements:</h4>
-            <ul>
-              <li>Engineered responsive web applications using React.js, improving user engagement metrics by 40%</li>
-              <li>Implemented modern frontend architecture practices, reducing page load times by 30%</li>
-              <li>Led collaborative development efforts in an Agile environment, coordinating with 5+ team members</li>
-              <li>Conducted code reviews and implemented best practices for maintainable, scalable code</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+  <h2 className={styles.sectionTitle}>Experience</h2>
+
+  <div className={styles.educationCard}>
+    <h3 className={styles.degree}>Project Associate</h3>
+    <p className={styles.university}>International Center for Free and Open Source Software (ICFOSS)</p>
+    <p className={styles.university}>Thiruvananthapuram, Kerala</p>
+    <p className={styles.year}>2025 - Ongoing</p>
+    <div className={styles.achievements}>
+      <h4>Key Achievements:</h4>
+      <ul>
+        <li>Spearheaded the development of open-source projects, enhancing accessibility and usability</li>
+        <li>Optimized web performance and user experience through advanced React.js practices</li>
+        <li>Coordinated with cross-functional teams to drive innovation in application development</li>
+        <li>Assisted in technical documentation and knowledge transfer sessions for internal teams</li>
+      </ul>
+    </div>
+  </div>
+  <br />
+  <div className={styles.educationCard}>
+    <h3 className={styles.degree}>Application Developer</h3>
+    <p className={styles.university}>International Center for Free and Open Source Software (ICFOSS)</p>
+    <p className={styles.cgpa}>Internship</p>
+    <p className={styles.year}>2024 - 2025</p>
+    <div className={styles.achievements}>
+      <h4>Key Achievements:</h4>
+      <ul>
+        <li>Engineered responsive web applications using React.js, improving user engagement metrics by 40%</li>
+        <li>Implemented modern frontend architecture practices, reducing page load times by 30%</li>
+        <li>Led collaborative development efforts in an Agile environment, coordinating with 5+ team members</li>
+        <li>Conducted code reviews and implemented best practices for maintainable, scalable code</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
       {/* Education Section */}
       <section id="education" className={styles.section}>
@@ -171,76 +189,117 @@ const Portfolio = () => {
 
       {/* Projects Section */}
       <section id="projects" className={styles.section}>
-        <h2 className={styles.sectionTitle}>Projects</h2>
-        <div className={styles.projectsGrid}>
-          <div className={styles.projectCard}>
-            <h3 style={{color:"orange"}}>Malayalam Plagiarism Detection System</h3>
-            <ul className={styles.projectlist}>
-              <li>Designed and developed a full-stack plagiarism detection system using React.js and RESTful APIs.</li>
-              <li>Built a secure JWT-based authentication system, supporting over 1,000 concurrent users.</li>
-              <li>Ensured 90% device accessibility through responsive design principles.</li>
-            </ul>
-            <p>GitLab: <a href=""></a></p>
-            <div className={styles.projectTech}>
-              <span>React</span>
-              <span>Node.js</span>
-              <span>Axios</span>
-              <span>JWT Authentication</span>
-              <span>Material UI</span>
-              <span>Django</span>
-            </div>
-          </div>
+  <h2 className={styles.sectionTitle}>Projects</h2>
+  <div className={styles.projectsGrid}>
+    
+    <div className={styles.projectCard}>
+      <h3 style={{color:"green"}}>KMA Attendance Management System – Kerala Media Academy</h3>
+      <p><strong>February 2025</strong></p>
+      <ul className={styles.projectlist}>
+        <li>Fixed bugs and added additional UI features to enhance user experience.</li>
+        <li>Contributed to the attendance tracking system for students, faculty, and administrators.</li>
+        <li>Implemented date-wise and month-wise attendance reports.</li>
+        <li>Added enrollment management for students and employees with year-wise records.</li>
+      </ul>
+      <div className={styles.projectTech}>
+        <span>JavaScript</span>
+        <span>Django</span>
+        <span>RESTful APIs</span>
+        <span>Bootstrap</span>
+      </div>
+    </div>
 
-          <div className={styles.projectCard}>
-            <h3 style={{color:"blue"}}>DMS Conference</h3>
-            <ul className={styles.projectlist}>
-              <li>Contributed to the development of the DMS website for ICFOSS, a platform designed for uploading and managing conference papers.</li>
-              <li>Ensured a user-friendly and efficient interface for researchers and conference organizers.</li>
-            </ul>
-            <p>GitLab: <a href=""></a></p>
-            <div className={styles.projectTech}>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>Javascript</span>
-              <span>Bootstrap</span>
-            </div>
-          </div>
+    <div className={styles.projectCard}>
+      <h3 style={{color:"#4169e1"}}>Application Portal ICFOSS</h3>
+      <p><strong>December 2024</strong></p>
+      <ul className={styles.projectlist}>
+        <li>Played a key role in the development of the ICFOSS Learning Portal, a robust platform designed to facilitate learning and streamline the management of various courses.</li>
+        <li>Integrated APIs to ensure seamless communication between the frontend and backend.</li>
+        <li>Designed and implemented user-friendly interfaces tailored to Applicants, Admins, and Coordinators.</li>
+      </ul>
+      <div className={styles.projectTech}>
+        <span>React.js</span>
+        <span>Axios</span>
+        <span>MUI</span>
+        <span>Mantine</span>
+        <span>Django</span>
+        <span>REST APIs</span>
+      </div>
+    </div>
 
-          <div className={styles.projectCard}>
-            <h3 style={{color:"#8b008b"}}>HELLOGRAM</h3>
-            <ul className={styles.projectlist}>
-              <li>Developed a mobile social media application connecting users using Flutter and Node.js.</li>
-              <li>Implemented advanced features such as emotion-driven posts, photo-based search, and encrypted messaging.</li>
-              <li>Responsible for login and authentication development and automatic message generation for chats.</li>
-            </ul>
-            <p>GitHub: <a className={styles.repolink} href="https://github.com/adarsh4j/HELLOGRAM-APP">🔗</a></p>
-            <div className={styles.projectTech}>
-              <span>Flutter</span>
-              <span>Node Js</span>
-              <span>MYSQL</span>
-              <span>API</span>
-              <span>Material UI</span>
-              <span>Django</span>
-            </div>
-          </div>
+    <div className={styles.projectCard}>
+      <h3 style={{color:"blue"}}>DMS Conference</h3>
+      <p><strong>November 2024</strong></p>
+      <ul className={styles.projectlist}>
+        <li>Contributed to the development of the DMS website for ICFOSS, a platform designed for uploading and managing conference papers.</li>
+        <li>Ensured a user-friendly and efficient interface for researchers and conference organizers.</li>
+      </ul>
+      {/* <p>GitLab: <a href=""></a></p> */}
+      <div className={styles.projectTech}>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Javascript</span>
+        <span>Bootstrap</span>
+      </div>
+    </div>
 
-          <div className={styles.projectCard}>
-            <h3 style={{color:"#ff1493"}}>CEC CONNECT</h3>
-            <ul className={styles.projectlist}>
-              <li>Developed a Flutter application for student-teacher interaction as well as student-student interaction.</li>
-              <li>Implemented modules for User Registration, Authentication, Skill and Department Search, SGPA Calculator, and Chatbot.</li>
-            </ul>
-            <p>GitHub: <a className={styles.repolink} href="https://github.com/adarsh4j/CEC_CONNECT">🔗</a></p>
-            <div className={styles.projectTech}>
-              <span>Flutter</span>
-              <span>Firebase</span>
-              <span>Firebase Firestore</span>
-              <span>Firebase Authentication</span>
-              <span>NOSQL</span>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className={styles.projectCard}>
+      <h3 style={{color:"orange"}}>Malayalam Plagiarism Detection System</h3>
+      <p><strong>September 2024</strong></p>
+      <ul className={styles.projectlist}>
+        <li>Designed and developed a full-stack plagiarism detection system using React.js and RESTful APIs.</li>
+        <li>Built a secure JWT-based authentication system, supporting over 1,000 concurrent users.</li>
+        <li>Ensured 90% device accessibility through responsive design principles.</li>
+      </ul>
+      {/* <p>GitLab: <a href=""></a></p> */}
+      <div className={styles.projectTech}>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Axios</span>
+        <span>JWT Authentication</span>
+        <span>Material UI</span>
+        <span>Django</span>
+      </div>
+    </div>
+
+
+    <div className={styles.projectCard}>
+      <h3 style={{color:"#8b008b"}}>HELLOGRAM</h3>
+      <ul className={styles.projectlist}>
+        <li>Developed a mobile social media application connecting users using Flutter and Node.js.</li>
+        <li>Implemented advanced features such as emotion-driven posts, photo-based search, and encrypted messaging.</li>
+        <li>Responsible for login and authentication development and automatic message generation for chats.</li>
+      </ul>
+      <p>GitHub: <a className={styles.repolink} href="https://github.com/adarsh4j/HELLOGRAM-APP">🔗</a></p>
+      <div className={styles.projectTech}>
+        <span>Flutter</span>
+        <span>Node Js</span>
+        <span>MYSQL</span>
+        <span>API</span>
+        <span>Material UI</span>
+        <span>Django</span>
+      </div>
+    </div>
+
+    <div className={styles.projectCard}>
+      <h3 style={{color:"#ff1493"}}>CEC CONNECT</h3>
+      <ul className={styles.projectlist}>
+        <li>Developed a Flutter application for student-teacher interaction as well as student-student interaction.</li>
+        <li>Implemented modules for User Registration, Authentication, Skill and Department Search, SGPA Calculator, and Chatbot.</li>
+      </ul>
+      <p>GitHub: <a className={styles.repolink} href="https://github.com/adarsh4j/CEC_CONNECT">🔗</a></p>
+      <div className={styles.projectTech}>
+        <span>Flutter</span>
+        <span>Firebase</span>
+        <span>Firebase Firestore</span>
+        <span>Firebase Authentication</span>
+        <span>NOSQL</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section id="contact" className={styles.section}>
